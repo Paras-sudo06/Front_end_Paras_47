@@ -1,0 +1,65 @@
+h1{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   
+    font-size: 70px;
+}
+
+#hello{
+    color: lightgreen;
+    font-size: 70px;
+}
+#hi{
+    background-color: bisque;
+    font-size: 17px;
+}
+
+.first{
+    color: green;
+    font-size: 17px;
+}
+
+.second{
+    color: green;
+    font-size: 17px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse hover */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* when clicked */
+a:active {
+  color: green;
+}
+
+
+
+
+/* Other common pseudo-classes:
+
+:first-child → targets the first child of a parent.
+
+:last-child → targets the last child.
+
+:nth-child(2) → targets the 2nd child.
+
+:focus → styles an input when it’s focused.
+
+⚡ Rule for link pseudo-classes order (remember LVHA):
+link → visited → hover → active */
